@@ -102,24 +102,25 @@ Sky Guardian AI unifies all these skills into one intelligent platform.
 
 ---
 
-🧩 Architecture
-SkyGuardian-AI/
-│
+# 🗂️ Project Structure
+┌───────────────────────────┐
+│       SkyGuardian-AI       │
+└───────────────────────────┘
+|
 ├── README.md
 ├── requirements.txt
-│
+|
 ├── src/
 │   ├── main.py
 │   ├── log_parser.py
 │   ├── analyzer.py
 │   └── report_generator.py
-│
+|
 ├── data/
 │   └── sample_logs.txt
-│
+|
 └── docs/
     └── architecture.md
-
 
 
 ---
