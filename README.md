@@ -101,27 +101,23 @@ Sky Guardian AI unifies all these skills into one intelligent platform.
 - Creates troubleshooting playbooks  
 
 ---
+📁 Project Structure
 
-🗂️ Project Structure
+Project Structure
 
-┌───────────────────────────┐
-│      SkyGuardian-AI       │
-└───────────────────────────┘
-|
-├── README.md
-├── requirements.txt
-|
-├── src/
-│   ├── main.py
-│   ├── log_parser.py
-│   ├── analyzer.py
-│   └── report_generator.py
-|
-├── data/
-│   └── sample_logs.txt
-|
-└── docs/
-    └── architecture.md
+ SkyGuardian-AI
+ ├── README.md
+ ├── requirements.txt
+ ├── src/
+ │   ├── main.py
+ │   ├── log_parser.py
+ │   ├── analyzer.py
+ │   └── report_generator.py
+ ├── data/
+ │   └── sample_logs.txt
+ └── docs/
+     └── architecture.md
+
 
 
 ---
