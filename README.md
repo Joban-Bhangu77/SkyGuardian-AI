@@ -1,189 +1,165 @@
-🦅 Sky Guardian AI
-⚡ AI-Powered Cloud, Network & Security Analysis Platform
+# 🦅 Sky Guardian AI
+### ⚡ AI-Powered Cloud, Network & Security Analysis Platform (100% Local ML)
+**Created by Jobanjit Singh | Cloud ☁️ | DevOps 🚀 | Network 🌐 | Security 🔐 | AI 🤖**
 
-by Jobanjit Singh — Cloud ☁️ | DevOps 🚀 | Network 🌐 | Security 🔐 | AI 🤖
+---
 
-⭐ Overview
+# ⭐ Overview
+Sky Guardian AI is a **local machine-learning intelligence platform** that analyzes logs, detects anomalies, scans cloud-style configurations, and generates smart insights — all **fully offline**, using **local ML models only** (no API keys, no billing).
 
-Sky Guardian AI is a 100% local machine-learning intelligence platform designed to analyze logs, detect anomalies, scan cloud-style configurations, and generate automated insights — all without using any APIs.
+This project reflects my real-world engineering experience and my mission to build intelligent automation systems that combine **Cloud, Networking, DevOps, Security, and AI**.
 
-This project reflects my engineering journey and ambition to build intelligent automation systems that bring together Cloud, Networking, Security, DevOps, and AI.
+---
 
-🎯 Purpose
+# 🎯 Purpose
+Modern infrastructure generates massive noise:
+- Logs 📄  
+- Alerts 🚨  
+- Security risks 🔐  
+- Misconfigurations ⚠️  
+- Unknown failures ❓  
 
-Modern systems create massive noise:
-logs, alerts, anomalies, and configuration risks.
+**Sky Guardian AI** is designed to act as a **guardian**:  
+A smart system that thinks like an engineer and analyzes like an AI.
 
-Sky Guardian AI acts as your AI Guardian, helping engineers understand issues faster, detect abnormal behavior early, and simplify infrastructure debugging.
+---
 
-🔥 Why I Built This
+# 🔥 Why I Built This
+During my engineering journey across Cloud, Networking, and Security, I faced:
+- Unexplained outages  
+- Chaotic logs  
+- Slow root-cause investigations  
+- Security blind spots  
+- Cloud configuration mistakes  
 
-After years working in Cloud, Networking, Security, and DevOps, I realized:
+I wanted a system that:
+- Understands patterns  
+- Detects issues early  
+- Supports engineers  
+- Predicts failures  
+- Enhances decision-making  
 
-Outages are often predictable
+Sky Guardian AI is that system.  
+A reflection of my engineering mindset and my long-term dream to innovate within US tech environments.
 
-Logs hide patterns humans miss
+---
 
-Cloud configs break silently
+# 🤖 Capabilities
 
-Security issues slip under the radar
+## ✅ Current Features
+- 📄 Log parsing  
+- 🏷️ Severity classification  
+- 🧩 Pattern extraction  
+- 🗂️ Clean summary generation  
 
-AI can help us work smarter
+## 🚀 Upcoming Features
+- 🤖 ML anomaly detection  
+- 🧠 Embedding-based log clustering  
+- 🛡️ Cloud config scanning  
+- 🔐 Security misconfiguration detection  
+- 📝 AI-generated remediation suggestions  
+- 📊 Incident-style summaries  
 
-This project is also a part of my goal to build high-quality engineering systems and grow my career in the United States.
+---
 
-🤖 Current & Upcoming Capabilities
-✅ Current Features
+# 🧠 Skillset Behind This Project
 
-📄 Log parsing
+## ☁️ Cloud Engineering
+VPCs, IAM, subnets, routing, VPN, load balancers, monitoring
 
-🏷 Severity classification
+## 🌐 Networking & Security
+Firewalls, VLANs, routing protocols, threat detection, Zero Trust
 
-🧩 Pattern extraction
+## 🚀 DevOps & SRE
+CI/CD, Terraform, Linux, observability, automation, incident response
 
-🗂 Summary generation
+## 🤖 AI & Python
+scikit-learn, embeddings (MiniLM), NLP (TinyBERT/DistilBERT), Python automation
 
-🚀 Coming Soon
+Sky Guardian AI unifies all these skills into one intelligent platform.
 
-🤖 ML anomaly detection
+---
 
-🧠 Embedding-based log clustering
+# 🧩 Core Modules
 
-🔐 Cloud configuration risk analysis
+## 🟦 1. LogSense — Log Intelligence Engine
+- Reads logs  
+- Groups similar errors  
+- Detects unusual behavior  
+- Prepares data for AI modules  
 
-🛡 Security misconfiguration detection
+## 🟨 2. CloudSense — Cloud Config Scanner (Planned)
+- Scans JSON/YAML  
+- Detects insecure rules  
+- Highlights unsafe security groups  
+- Suggests best practices  
 
-📝 AI-generated remediation suggestions
+## 🟥 3. AutoResponder — AI Remediation Engine (Planned)
+- Generates root-cause analysis  
+- Suggests fixes  
+- Provides severity scoring  
+- Creates troubleshooting playbooks  
 
-📊 Incident-style reports
+---
+---
 
-🧠 Skills Behind This Project
-☁️ Cloud Engineering
+# 🛠 Tech Stack
+- 🐍 Python 3.10+  
+- 🤖 scikit-learn (KMeans, IsolationForest, One-Class SVM)  
+- 🧠 MiniLM (SentenceTransformers)  
+- 📝 TinyBERT / DistilBERT  
+- 📄 TXT, JSON, YAML  
+- 🌐 Flask dashboard (future)  
 
-VPCs • IAM • Routing • Subnets • VPN • Security Groups • Monitoring
+---
 
-🌐 Networking & Security
+# ▶️ How to Run
 
-Firewalls • VLANs • Routing Protocols • IDS/IPS Concepts • Threat Detection
 
-🚀 DevOps & SRE
-
-CI/CD • Terraform • Observability • Automation • Linux • Logging
-
-🤖 AI & Python
-
-Python automation • scikit-learn • Embeddings (MiniLM) • TinyBERT/DistilBERT • NLP
-
-Sky Guardian AI merges these skills into one intelligent platform.
-
-🧩 Core Modules
-🟦 1. LogSense — Log Intelligence Engine
-
-Reads and parses logs
-
-Detects patterns
-
-Groups similar events
-
-Prepares data for ML
-
-🟨 2. CloudSense — Cloud Config Scanner (Planned)
-
-Scans cloud-like JSON/YAML
-
-Detects risky rules
-
-Highlights public exposure
-
-Suggests improvements
-
-🟥 3. AutoResponder — AI Remediation Engine (Planned)
-
-Root-cause suggestions
-
-Fix recommendations
-
-Severity analysis
-
-Playbook creation
-
-🗂️ Project Structure (Stylish Card Format)
-
-(Perfect GitHub rendering — safe formatting)
-
-📁 SkyGuardian-AI/
-  ├── 📄 README.md
-  ├── 📄 requirements.txt
-  ├── 📂 src/
-    ├── 🧠 main.py
-    ├── 🔍 log_parser.py
-    ├── 🤖 analyzer.py
-    └── 📝 report_generator.py
-  ├── 📂 data/
-    └── 📄 sample_logs.txt
-  └── 📂 docs/
-    └── 📘 architecture.md
-
-🛠 Tech Stack
-
-🐍 Python 3.10+
-
-🤖 scikit-learn (KMeans, IsolationForest, One-Class SVM)
-
-🧠 MiniLM (SentenceTransformers)
-
-📝 TinyBERT / DistilBERT
-
-📄 TXT, JSON, YAML
-
-🌐 Flask Dashboard (future enhancement)
-
-▶️ How to Run
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python src/main.py
 
-🧭 Roadmap
-PHASE 1 — Log Intelligence          ✔ In Progress
-PHASE 2 — ML Clustering             ⬜ Next
-PHASE 3 — Cloud Risk Scanner        ⬜ Planned
-PHASE 4 — AI Remediation Engine     ⬜ Planned
-PHASE 5 — Dashboard UI              ⬜ Optional
 
-👨‍💻 About Me
+---
 
-I’m Jobanjit Singh, an engineer passionate about building intelligent infrastructure systems.
+# 🧭 Roadmap
 
-Sky Guardian AI represents:
 
-My mindset
+PHASE 1 – Log Intelligence ✔ In Progress
+PHASE 2 – ML Clustering ⬜ Next
+PHASE 3 – Cloud Risk Scanner ⬜ Planned
+PHASE 4 – Remediation Engine ⬜ Planned
+PHASE 5 – Dashboard UI ⬜ Optional
 
-My discipline
 
-My innovation goals
+---
 
-My drive to grow into a world-class engineer
+# 👨‍💻 About the Builder
+I’m **Jobanjit Singh**, a Cloud, DevOps, Network, and Security Engineer who is passionate about building **intelligent, reliable, automated systems**.
 
-My dream to contribute to the US tech landscape
+Sky Guardian AI reflects:
+- My discipline  
+- My curiosity  
+- My engineering values  
+- My passion for AI  
+- My ambition to work in the United States  
 
-🏁 Conclusion
+---
 
-Sky Guardian AI is more than a project — it’s a vision.
+# 🏁 Conclusion
+Sky Guardian AI is more than a project — it is my engineering signature.
 
-It combines:
+It represents:
+- Modern cloud thinking  
+- Intelligent automation  
+- Real-world problem solving  
+- AI-assisted decision making  
+- My long-term engineering mission  
+- And my drive to grow into a world-class engineer  
 
-Cloud
+Thank you for reviewing my work.  
+If you are an engineer, recruiter, or mentor, I’d love to connect and collaborate.
 
-Networking
-
-Security
-
-DevOps
-
-AI
-
-…into one intelligent automation engine.
-
-Thank you for reviewing my work.
-If you're an engineer, mentor, or recruiter — I’d love to connect.
+---
