@@ -1,113 +1,120 @@
 🦅 Sky Guardian AI
 
 AI-Powered Cloud, Network & Security Analysis Platform (Local ML Edition)
-Created with purpose, discipline and a vision for world-class engineering.
+Built with discipline, purpose, and a vision for world-class engineering.
 
 ░░ About Sky Guardian AI — And Why I Built It
 
-Hi, I’m Jobanjit Singh — a Cloud, Network, DevOps & Security Engineer who believes infrastructure should be intelligent, predictive and self-healing.
+Hi, I’m Jobanjit Singh — a Cloud, Network, DevOps, and Security Engineer who believes modern infrastructure should be intelligent, self-aware, and predictive.
 
-After years of resolving outages, debugging production issues, and protecting cloud networks, one thing became clear:
+After years of handling outages, debugging logs, fixing broken configs, and managing distributed systems, I realized something important:
 
-There must be a smarter and more automated way to understand systems.
+There must be a smarter way to understand and protect systems.
 
-Sky Guardian AI is my attempt to build that intelligent guardian —
-a local-AI platform that analyzes logs, detects anomalies, evaluates cloud risks, and recommends fixes without relying on paid APIs.
+Sky Guardian AI is my personal attempt to build that smarter way —
+a platform that thinks like an engineer, analyzes like an AI, and protects like a guardian.
 
-This project is not just technical — it’s personal, tied to my long-term vision to grow into a world-class engineer and build a future in the United States.
+This project represents my engineering identity and my long-term mission to contribute to advanced AI-powered infrastructure engineering in the United States.
 
 ░░ What Sky Guardian AI Does
 
-Sky Guardian AI is a fully offline AI/ML powered platform that:
+Sky Guardian AI is a fully offline, local-ML-powered intelligence platform that:
 
-Understands and analyzes logs
+Analyzes logs through pattern detection
 
-Detects abnormal activity
+Detects anomalies using ML models
 
-Clusters similar errors using embeddings
+Groups similar issues using embeddings
 
-Highlights anomalies using ML
+Highlights high-risk events and unusual behavior
 
-Scans cloud-style configurations
+Scans cloud-style configs for misconfigurations
 
-Identifies security gaps
+Suggests intelligent recommendations
 
-Suggests intelligent remediation steps
+Generates clean incident summaries
 
-Generates human-readable incident summaries
-
-All using local machine learning models, making it secure, lightweight and production-friendly.
+All without any APIs.
+No keys.
+No cost.
+Pure engineering + local AI.
 
 ░░ Why This Project Matters to Me
 
-Because this is the exact kind of engineering I want to build in the US —
-secure, automated, intelligent systems that solve problems before humans notice them.
+This project is deeply personal.
 
-Sky Guardian AI represents:
+It reflects my passion for Cloud, DevOps, Networking, Security, and AI — and the type of intelligent automation I want to build professionally in the US tech industry.
 
-my discipline
+It's not just code.
+It's a statement of discipline, ambition, and engineering vision.
 
-my learning journey
+Sky Guardian AI is the perfect intersection of:
 
-my AI foundations
+Cloud + Networking
 
-my cloud + networking expertise
+Security + DevOps
 
-and my long-term commitment to innovation
+AI + Automation
 
-This project is both technical work and personal evolution.
+Real-world problem solving
+
+This is the engineering path I want to pursue for the next decade.
 
 ░░ My Skillset Behind This Project
 Cloud Engineering
 
-VPC, IAM, routing, subnets, load balancing, monitoring, automation
+VPCs, Subnets, Routing, IAM, VPN, Load Balancers, Monitoring & Cloud Automation
 
 Network & Security
 
-Firewalls, VLANs, routing protocols, threat analysis, Zero Trust
+VLANs, Firewalls, Routing Protocols, Threat Detection, Zero Trust, Log Analysis
 
 DevOps & SRE
 
-CI/CD, Terraform, observability, incident response, automation
+CI/CD, Terraform, Linux, Automation, Observability, Incident Response
 
 AI & Python
 
-Python automation, scikit-learn, TinyBERT/MiniLM embeddings, clustering, anomaly detection
+Python scripting, scikit-learn, embeddings (MiniLM), TinyBERT/DistilBERT, ML anomaly detection
 
-Sky Guardian AI is where all my expertise comes together.
+Sky Guardian AI brings all of these skillsets together into one meaningful system.
 
 ░░ Core Modules
 1️⃣ LogSense — Local AI Log Intelligence Engine
 
-Reads & classifies log files
+Parses structured/unstructured logs
 
-Extracts patterns
+Counts severity levels
 
-Groups similar errors using embeddings
+Creates embeddings for similarity
 
-Detects anomalies with ML
+Detects anomalies
 
-Generates summaries & insights
+Clusters repeated issues
 
-2️⃣ CloudSense — Cloud Configuration Risk Scanner (Upcoming)
+Generates clean summaries
 
-Reads JSON/YAML cloud configs
+2️⃣ CloudSense — Cloud Configuration Scanner (Planned)
+
+Reads JSON/YAML configs
 
 Detects risky security groups
 
-Identifies open ports / weak rules
+Identifies open ports / wide rules
 
-Suggests cloud hardening
+Suggests cloud hardening steps
 
-3️⃣ AutoResponder — AI Incident & Playbook Generator (Upcoming)
+Produces risk heatmaps
 
-Root-cause narratives
+3️⃣ AutoResponder — AI Remediation Engine (Planned)
 
-Remediation recommendations
+Produces root-cause insights
 
-Severity scoring
+Suggests remediation actions
 
-Playbook templates
+Predicts severity
+
+Generates playbooks
 
 ░░ Project Architecture
 SkyGuardian-AI/
@@ -130,31 +137,33 @@ SkyGuardian-AI/
 ░░ Feature Roadmap
 Phase 1 — Log Intelligence (Current)
 
-✔ Severity classification
-✔ Summary generation
+✔ Parse logs
+✔ Severity detection
+✔ Summary output
 ⏳ Pattern extraction
 
-Phase 2 — Local AI/ML
+Phase 2 — Local AI (Next)
 
-⏳ Embedding-based clustering
-⏳ Log similarity analysis
-⏳ Isolation Forest anomaly detector
+⏳ Embedding-based log grouping
+⏳ Similarity scoring
+⏳ Isolation Forest anomaly detection
 
-Phase 3 — Cloud Risk Analysis
+Phase 3 — Cloud Security Posture
 
-⏳ Scan mock JSON/YAML configs
-⏳ Detect misconfigurations
+⏳ Risk detection in cloud configs
+⏳ IAM misconfiguration detection
 
-Phase 4 — AI Remediation
+Phase 4 — Remediation Engine
 
-⏳ Root-cause engine
-⏳ Automated recommendations
+⏳ Root-cause generation
+⏳ Fix suggestions
+⏳ Playbooks
 
 Phase 5 — Dashboard (Optional)
 
 ⏳ Flask UI
-⏳ Visual analytics
-⏳ Local AI assistant
+⏳ Graphs
+⏳ Local chatbot
 
 ░░ Tech Stack
 
@@ -162,45 +171,41 @@ Language: Python 3.10+
 ML: scikit-learn (KMeans, IsolationForest, One-Class SVM)
 Embeddings: MiniLM (SentenceTransformers)
 NLP: TinyBERT / DistilBERT
-Data: TXT, JSON, YAML
-Future UI: Flask dashboard
+Data Formats: TXT, JSON, YAML
+UI (planned): Flask
 
 ░░ How to Run
 python -m venv venv
-source venv/bin/activate     # Windows: venv\Scripts\activate
+source venv/bin/activate       # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python src/main.py
 
 ░░ Mission & Purpose
 
-Sky Guardian AI is part of my long-term journey:
+Sky Guardian AI is not just a project — it’s part of my long-term journey as an engineer.
 
-to master advanced AI infrastructure
+I am building this system to:
 
-to build industry-grade automation tools
+strengthen my cloud + AI engineering mastery
 
-to show deep system design thinking
+develop real-world automation tools
 
-to expand my engineering capabilities
+showcase architectural thinking
 
-and to prepare myself for opportunities in the United States
+demonstrate end-to-end technical capabilities
 
-Every commit in this repo is a step toward that future.
+prepare myself for growth and opportunities in the United States
+
+Every commit represents learning, discipline, and forward momentum.
 
 ░░ Conclusion
 
-Sky Guardian AI is more than a codebase — it is a reflection of my mindset, discipline, and engineering identity.
+Sky Guardian AI reflects who I am as an engineer — curious, disciplined, impact-driven, and deeply passionate about intelligent automation.
 
-It represents:
+It showcases my ability to connect cloud, networking, DevOps, security, and AI into a unified system that solves real engineering problems.
 
-My dedication to solving real-world problems
-
-My ability to blend cloud, network, security, DevOps and AI together
-
-My hunger to learn, grow, and build meaningful systems
-
-And my ambition to live, work, and innovate in the United States
+And it represents the values I want to bring to every team I join:
+clarity, intelligence, automation, and reliability.
 
 Thank you for taking the time to explore my work.
-
-If you're a recruiter, engineer, or mentor — I would love to connect, collaborate, or receive feedback.
+If you're a recruiter, engineer, or mentor, I’d love to connect and grow together.
