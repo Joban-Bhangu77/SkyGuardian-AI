@@ -101,7 +101,6 @@ Sky Guardian AI unifies all these skills into one intelligent platform.
 - Creates troubleshooting playbooks  
 
 ---
----
 
 # 🛠 Tech Stack
 - 🐍 Python 3.10+  
