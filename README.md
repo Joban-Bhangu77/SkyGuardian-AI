@@ -102,7 +102,7 @@ Sky Guardian AI unifies all these skills into one intelligent platform.
 
 ---
 
-🗂️ Project Structure (Stylish Card Format)
+🗂️ Project Structure
 
 📁 SkyGuardian-AI/
   ├── 📄 README.md
