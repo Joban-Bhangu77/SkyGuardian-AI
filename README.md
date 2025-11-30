@@ -102,9 +102,10 @@ Sky Guardian AI unifies all these skills into one intelligent platform.
 
 ---
 
-# 🗂️ Project Structure
+🗂️ Project Structure
+
 ┌───────────────────────────┐
-│       SkyGuardian-AI       │
+│      SkyGuardian-AI       │
 └───────────────────────────┘
 |
 ├── README.md
